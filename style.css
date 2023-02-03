@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
 :root{
-    --cor-primaria: #446A46;
+    --cor-primaria: #224B0C;
     --cor-secundaria:#B7B78A;
     --cor-terciaria: #EEEEEE;
 
@@ -13,5 +15,27 @@
     margin: 0;
 }
 body{
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+.cabecalho{
+    background-color: var(--cor-primaria);
+    padding: 50px;
+}
+.cabecalho__menu{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
     
+}
+.cabecalho__menu__itens{
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+.cabecalho__menu__itens:hover{
+    color: var(--cor-secundaria);
 }
