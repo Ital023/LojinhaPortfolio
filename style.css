@@ -1,0 +1,17 @@
+:root{
+    --cor-primaria: #446A46;
+    --cor-secundaria:#B7B78A;
+    --cor-terciaria: #EEEEEE;
+
+    --cor-navEfootter:#DDDDDD;
+    --cor-texto: #000000;
+    --cor-titulo:#446A46; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+}
